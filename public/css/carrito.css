@@ -1,0 +1,17 @@
+.mdl-dialog {
+					    border: none;
+					    box-shadow: 0 9px 46px 8px rgba(0,0,0,.14), 0 11px 15px -7px rgba(0,0,0,.12), 0 24px 38px 3px rgba(0,0,0,.2);
+					    width: 600px;
+					}
+					.mdl-dialog__actions {
+					     padding: 0px 50px 0px 50px; 
+					    display: -webkit-flex;
+					    display: -ms-flexbox;
+					    /* display: flex; */
+					    -webkit-flex-direction: row-reverse;
+					    -ms-flex-direction: row-reverse;
+					    flex-direction: row-reverse;
+					    -webkit-flex-wrap: wrap;
+					    -ms-flex-wrap: wrap;
+					    flex-wrap: wrap;
+					}

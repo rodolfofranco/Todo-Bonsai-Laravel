@@ -1,0 +1,115 @@
+.mdl-dialog {
+            border: none;
+            box-shadow: 0 9px 46px 8px rgba(0,0,0,.14), 0 11px 15px -7px rgba(0,0,0,.12), 0 24px 38px 3px rgba(0,0,0,.2);
+            width: 60%;
+          }
+          .mdl-navigation.lateral{
+            background-color:white;
+          }
+          .mdl-layout__drawer.lateral{
+              background-color:white;
+              width: 175px;
+              height:55%;
+              border-right-style: none;
+              border-right-width: 0px;
+              border-bottom-style: none;
+              border-bottom-width: 0px;
+              border-bottom-color: transparent;
+              
+          }
+          .mdl-button.mdl-js-button.mdl-js-ripple-effect:hover{
+            background-color: #67daff;
+          }
+          .mdl-dialog__actions--full-width>* {
+              height: 48px;
+              -webkit-flex: 0 0 100%;
+              -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+              padding-right: 0px;
+              margin-right: 0;
+              /* text-align: right; */
+          }
+          
+          .card-img-top{
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  background-position:center center;
+  background-size:cover;
+  
+}
+
+/*
+Css, descripcion del producto escondido detras de la imagen (se muestra cuando se pase el mouse por encima de la imagen)
+*/
+.descripcionProducto{
+    
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*
+Css, texto de la descripcion del producto
+*/
+.producto{
+    
+    color:black;
+}
+
+.producto:hover{
+    
+    text-decoration: none;
+    
+}
+
+.col-lg-4.col-md-6.mb-4:hover .descripcionProducto{
+    
+    opacity: 1;
+}
+
+.col-lg-4.col-md-6.mb-4:hover .card-img-top{
+    
+    opacity: 0.2;
+     text-decoration: none;
+}
+
+.product {
+    float: left;
+    background-color: #2196F3;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #212121;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #212121;
+}
+
+.product_view .modal-dialog{max-width: 800px; width: 100%;}
+.pre-cost{text-decoration: line-through; color: #a5a5a5;}
+.space-ten{padding: 10px 0;}
+

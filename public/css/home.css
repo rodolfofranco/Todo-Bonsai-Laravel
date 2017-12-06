@@ -1,0 +1,69 @@
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.mdl-layout__header{
+
+background-color:#212121;
+
+    
+}
+
+.mdl-navigation__link{
+	border-top-style: solid;
+    border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: transparent;
+	transition: all 400ms ease;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	letter-spacing: 0.05em;
+	padding-bottom: 0px;
+	text-decoration: none;
+	font-weight:500;
+	font-family: 'Raleway', sans-serif;
+}
+
+.mdl-navigation__link:hover {
+	border-top-style: solid;
+    border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-right-color: transparent;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: white;
+	transition: all 400ms ease;
+	-webkit-transition: all 400ms ease;
+	-moz-transition: all 400ms ease;
+	-o-transition: all 400ms ease;
+	-ms-transition: all 400ms ease;
+	outline-offset: -10px;
+	text-decoration: none;
+}
+
+.header.mdl-layout__header.is-casting-shadow{
+    background-color: #03a9f4;
+}
+
+.span.mdl-layout-title {
+    left: 20px;
+}
+
+.finder{
+	position: absolute;
+    right: 10px;
+    z-index: 9999;
+    width: 100%;	
+}
+
+.mdl-layout__drawer{
+    background-color:#E3EEFB;
+}
+
